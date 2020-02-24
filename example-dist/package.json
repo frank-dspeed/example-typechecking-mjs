@@ -1,0 +1,11 @@
+{ 
+    "name": "my-cjs-es-module",
+    "module": "es/module.js",
+    "main": "cjs/module.js",
+    "exports": {
+        ".": {
+          "import": "./es/module.js",
+          "require": "./cjs/module.js"
+        }
+      }
+}

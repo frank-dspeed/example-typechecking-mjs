@@ -1,0 +1,12 @@
+{ 
+    "name": "my-es-module",
+    "type": "module",
+    "module": "module.js",
+    "main": "module.js",
+    "exports": {
+        ".": {
+          "import": "./module.js",
+          "require": "../cjs/module.js"
+        }
+      }
+}
