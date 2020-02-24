@@ -1,2 +1,2 @@
-import anything from '../dependency.mjs'
+import anything from './dependency.mjs'
 console.log(anything)
