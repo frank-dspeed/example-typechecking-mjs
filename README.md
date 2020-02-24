@@ -15,5 +15,5 @@ once https://github.com/microsoft/TypeScript/issues/27957 is solved that will no
 ## Instructions for ECMAScript Authors at present
 - use the .js extension maybe .es.js 
 - give module hint via package.json fild type and set it to module.
-- Create individual CJS and ESM Packages or offer 2 folders with individual package.json files that are honting to the module type
+- Create individual CJS and ESM Packages or offer 2 folders with individual package.json files with the right type fild.
   - when using the 2 folder structure you can still use a inital package.json in the route that uses the module and main filds to point to the individual module folders.
