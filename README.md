@@ -17,3 +17,8 @@ once https://github.com/microsoft/TypeScript/issues/27957 is solved that will no
 - give module hint via package.json fild type and set it to module.
 - Create individual CJS and ESM Packages or offer 2 folders with individual package.json files with the right type fild.
   - when using the 2 folder structure you can still use a inital package.json in the root folder that uses the module and main filds to point to the individual module folders. NodeJS will always pick nearest package.json to the current imported file.
+
+
+
+## Additional Notes
+node > 14 node --experimental-specifier-resolution=node run.js will allow to specifie the method to resolve specifier
